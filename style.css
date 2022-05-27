@@ -1,0 +1,140 @@
+img.herodion1{
+   z-index: -1;
+    width: 100%;
+    height: 100%;
+    filter: brightness(75%);
+}
+
+p.heading{
+    color: white;
+    right: 670px;
+    display: block;
+    top: 330px;
+    font-size: 500%;
+    position: absolute;
+    z-index: 1;
+}
+
+div.History3{
+     height: 400px;
+     text-align: right;
+     margin-top: 50px;
+     padding: 10px;
+     clear: none;
+     margin-bottom: 20px;
+     display: inline-block;
+}
+
+.HistoryImg{
+    height: auto; 
+    width: 25%; 
+    border: solid 1px black;
+    border-radius: 50px; 
+    float: left;
+    margin: 0 15px 15px 0;
+}
+
+.HistoryTxt{
+    font-size: 150%;
+    margin-top: 15px;
+}
+
+.History{
+     font-style: italic;
+     vertical-align: middle;
+     line-height: 51px;
+}
+
+div.centerH1{
+     text-align: center;     
+}
+
+div.History1{
+    margin-bottom: 20px;
+}
+
+div.interests{
+    margin-top: 15px;
+    padding: 20px;
+    display: inline-block;
+    overflow: auto;
+    width: 100%;
+}
+
+div.card1{
+    text-align: right;
+    border: solid black 1px;
+    border-radius: 10px;
+}
+
+.imgCard{
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-body{
+    padding: 5px;
+}
+
+.carding2{
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.fixedImg{
+    width: 700px;
+    border-radius: 10px;
+}
+
+.WhyShouldICome{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.ulReasons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.map{
+    width: auto;
+    display: flex;
+    justify-content: left;
+}
+
+a{
+    color: black;
+}
+
+.coolHistory{
+    background-image: linear-gradient(90deg, turquoise, rgb(255, 191, 0));
+    background-size: 0% 5px;
+    background-repeat: no-repeat;
+    background-position: left-bottom;
+    text-decoration: none;
+    transition: background-size 300ms ease;
+    color: black;
+}
+
+.coolHistory:hover,
+.coolHistory:focus{
+    background-size: 100% 3px;
+    transition-delay: 20ms;
+    transition-duration: 500ms;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: hsla(55, 100%, 91%, 0.867);
+}
+
+::-webkit-scrollbar-thumb{
+    background: hsla(55, 15%, 49%, 0.867);
+    border-radius: 5px;
+}
